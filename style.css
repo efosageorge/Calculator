@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.name{
+    text-align: center;
+    font-family: cursive;
+    color: #d6ac23f6;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 3px solid #d69723f6;
+    padding: 20px;
+    
+}
+.bg{
+    background-image:  linear-gradient(to right, #09050c, #6d6e72);
+    height: 100vh;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background: #161616;
+    color: rgb(190, 190, 190);
+    border: none;
+}
+.button1{
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+    margin: 2px;
+    cursor: pointer;
+    background: #fdbc07f6;
+    color: #fff;
+    border: none;
+}
+.textview{
+    width: 260px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    color: #1a1c1d;
+    background: #fff;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 2px;
+    cursor: pointer;
+    text-align: center;
+    background: #607d8b;
+    color: #fff;
+    border: none;
+}
